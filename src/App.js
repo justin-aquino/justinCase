@@ -1,6 +1,6 @@
 import Particles from 'react-tsparticles';
 import './App.css';
-import About from './components/pages/About/About';
+import Landing from './components/pages/About/Landing';
 import NaviBar from './components/layouts/Navibar/NaviBar';
 import TechStack from './components/pages/TechStack/TechStack';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <NaviBar />
-      <About />
+      <Landing />
       <div className="flex-with-center">
 
       <TechStack />

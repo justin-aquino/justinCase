@@ -2,10 +2,10 @@ import React from 'react'
 import ReactTyped from 'react-typed'
 import "./About.css"
 
-const About = () => {
+const Landing = () => {
   return (
 
-        <div className=' intro'>
+        <div className='intro'>
         <img src="justin.png" alt="justin"/>
             <section>
                 <ReactTyped 
@@ -29,4 +29,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Landing

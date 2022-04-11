@@ -12,7 +12,10 @@ const About = () => {
                     strings={[
                         "Hello Visitor!",
                         "Thanks for visiting my website.",
-                        "I'm a software engineer",
+                        "Unfortunately this site is still under construction...",
+                        "Come visit again next time!",
+                        "  ",
+                        "  "
                     ]}
                     typeSpeed={50}
                     backSpeed={50}

@@ -1,0 +1,23 @@
+
+.intro {
+    background: url("/public/custom.svg");
+    min-height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.typed-text {
+    background-color: var(--dark-purple);
+    border-radius: 10px;
+    padding: 2%;
+    color: var(--lighter-gray);
+    font-size: 2em;
+}
+
+img {
+    margin: 2%;
+    border-radius: 10px;
+    /* border: 5px solid var(--darker-gray); */
+    width: 35rem;
+}

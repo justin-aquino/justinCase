@@ -1,0 +1,16 @@
+.navibar {
+    background-color: var(--dark-purple);
+
+}
+
+.name {
+    font-size: 25px;
+}
+
+.nav-text {
+    color: var(--lighter-gray) !important;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}

@@ -1,3 +1,28 @@
+
+:root {
+  --dark-purple: #4E3C51;
+  --light-purple: #8D818F;
+  --darker-gray: #A9AAAA;
+  --lighter-gray: #E3E3E3;
+}
+.flex-with-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: var(--light-purple) !important;
+}
+.container {
+  min-height: 100vh;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  width: 80%;
+
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +39,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

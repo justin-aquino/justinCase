@@ -1,12 +1,18 @@
-import logo from './logo.svg';
+import Particles from 'react-tsparticles';
 import './App.css';
+import About from './components/pages/About/About';
+import NaviBar from './components/layouts/Navibar/NaviBar';
+import TechStack from './components/pages/TechStack/TechStack';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Justin Aquino, fullstack software engineer.
-      </header>
+      <NaviBar />
+      <About />
+      <div className="flex-with-center">
+
+      <TechStack />
+      </div>
     </div>
   );
 }

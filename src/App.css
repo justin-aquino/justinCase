@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 :root {
   --dark-purple: #4E3C51;
-  --light-purple: #8D818F;
+  --light-purple: #B6A5D0;
   --darker-gray: #A9AAAA;
   --lighter-gray: #E3E3E3;
 }
@@ -21,6 +21,11 @@ body {
 }
 h1 {
   font-family: 'Righteous', cursive;
+}
+
+#home {
+  background-color: var(--light-purple);
+  margin-bottom: 10%;
 }
 
 .font {

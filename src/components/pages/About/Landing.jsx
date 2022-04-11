@@ -5,9 +5,12 @@ import "./About.css"
 const Landing = () => {
   return (
 
-        <div className='intro'>
-        <img src="justin.png" alt="justin"/>
+        <div className='intro tats'>
             <section>
+                <img src="justin.png" alt="justin"/>
+            </section>
+  
+            <section  className='typed-text'>
                 <ReactTyped 
                     strings={[
                         "Hello Visitor!",
@@ -18,9 +21,9 @@ const Landing = () => {
                         "  "
                     ]}
                     typeSpeed={50}
-                    backSpeed={50}
+                    backSpeed={60}
                     loop
-                    className='typed-text'
+                   
                 />
             </section>
 

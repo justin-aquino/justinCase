@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
 }
 
 .typed-text {
@@ -18,6 +19,7 @@
     color: var(--lighter-gray);
     font-size: 1em;
     width: 50%;
+    margin-bottom: 25%;
 }
 
 /* .tats {
@@ -26,14 +28,14 @@
 
 img {
 
-    margin: 2%;
+    margin: 1%;
     width: 100%;
 }
 
 
 @media only screen and (min-width: 800px) {
     img {
-        width: 30rem;
+        width: 20rem;
     }
     .typed-text {
         font-size: 2rem;

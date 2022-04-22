@@ -4,31 +4,29 @@ import "./About.css"
 
 const Landing = () => {
   return (
-
-        <div className='intro tats'>
-            <section>
-                <img src="justin.png" alt="justin"/>
-            </section>
+    <div className='intro tats'>
+        <section>
+            <img src="justin.png" alt="justin"/>
+        </section>
   
-            <section  className='typed-text'>
-                <ReactTyped 
-                    strings={[
-                        "Hello Visitor!",
-                        "Thanks for visiting my website.",
-                        "Unfortunately this site is still under construction...",
-                        "Come visit again next time!",
-                        "  ",
-                        "  "
-                    ]}
-                    typeSpeed={50}
-                    backSpeed={60}
-                    loop
-                   
-                />
+        <section  className='typed-text'>
+            <ReactTyped 
+                strings={[
+                    "Hello Visitor!",
+                    "I'm Justin!",
+                    "I'm a fullstack engineer.",
+                    "Welcome to my website!",
+                    "Unfortunately this site is still under construction...",
+                    "But feel free to look around and check my projects!",
+                    "  ",
+                    "  "
+                ]}
+                typeSpeed={50}
+                backSpeed={20}
+                loop
+            />
             </section>
-
         </div>
-
   )
 }
 

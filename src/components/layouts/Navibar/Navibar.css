@@ -1,10 +1,10 @@
 .navibar {
     background-color: var(--dark-purple);
-
+    font-size: 25px;
 }
 
 .name {
-    font-size: 25px;
+  
 }
 
 .nav-text {

@@ -11,3 +11,7 @@ h1 {
 p {
     font-size: 20px;
 }
+
+.project-card {
+    padding: 2%;
+}

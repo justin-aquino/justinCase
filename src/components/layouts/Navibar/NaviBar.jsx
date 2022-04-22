@@ -6,7 +6,7 @@ const NaviBar = () => {
   return (
     <div id="home">
         <Navbar expand="lg" className="p-3 navibar fixed-top mb-5" variant="dark">
-            <Navbar.Brand href="#home"  className="nav-text name font"> Justin Aquino </Navbar.Brand>
+            <Navbar.Brand href="#home"  className="nav-text name font"> <h2> Justin Aquino </h2></Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse style={{justifyContent: "end"}} className="navbar-dark">
             <Nav>

@@ -9,7 +9,7 @@ const Project = ({project}) => {
         <Card.Body className="card-body">
             <Card.Title><h3>{project.name}</h3></Card.Title>
             <Card.Text>
-                <p className="text-align-left">{project.description} </p>
+                { project.description }
             </Card.Text>
         </Card.Body>
         </Card>

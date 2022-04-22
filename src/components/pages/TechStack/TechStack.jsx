@@ -5,7 +5,7 @@ import { SiMongodb, SiTailwindcss,SiJavascript, SiPostgresql } from "react-icons
 
 const TechStack = () => {
   return (
-    <div id="tech-stack">
+    <div >
           <h1>My Tech Stack</h1>
         <div className='carousel-parent position-relative'>
           <div className="gallery">

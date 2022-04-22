@@ -73,7 +73,7 @@ h1 {
     .gallery span {
         height: 100%;
         width:100%;
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(300px);
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(200px);
     }
     
   }
@@ -86,7 +86,7 @@ h1 {
     .gallery span {
         /* height: 100%; */
         width:70%;
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(300px);
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(400px);
     }
 
     .gallery span svg{

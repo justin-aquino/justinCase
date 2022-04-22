@@ -75,7 +75,9 @@ h1 {
         width:100%;
         transform: rotateY(calc(var(--i) * 40deg)) translateZ(200px);
     }
-    
+    h1 {
+        font-size: 33px;
+    }
   }
 
   @media only screen and (min-width: 800px) {
@@ -92,6 +94,9 @@ h1 {
     .gallery span svg{
         height: 100%;
         width: 100%;
+    }
+    h1 {
+        font-size: 33px;
     }
   }
 

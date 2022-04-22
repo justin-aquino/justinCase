@@ -55,7 +55,7 @@ const App = () => {
     },
     {
       name: "Keylometer/ Minute",
-      description: "Keylometer/ Minute",
+      description: "For my first project in this course, I decided to build my version of a speed typing challenge. As a novice mechanical keyboard enthusiast, I enjoy building keyboards using different switches depending on what sound profile and feel I am looking for at certain times. And to test out the build, I always use websites like monkeytype and kbsim.",
       image: "keylo.png",
       deployedLink: "https://justin-aquino.github.io/speed-typer/",
       username: "admin",

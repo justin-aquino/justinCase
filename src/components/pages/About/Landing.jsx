@@ -14,15 +14,16 @@ const Landing = () => {
                 strings={[
                     "Hello Visitor!",
                     "I'm Justin!",
-                    "I'm a fullstack engineer.",
+                    "I'm a fullstack engineer based in Los Angeles, CA.",
                     "Welcome to my website!",
                     "Unfortunately this site is still under construction...",
                     "But feel free to look around and check my projects!",
                     "  ",
+                    "  ",
                     "  "
                 ]}
                 typeSpeed={50}
-                backSpeed={20}
+                backSpeed={30}
                 loop
             />
             </section>

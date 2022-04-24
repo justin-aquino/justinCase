@@ -4,8 +4,12 @@ h1 {
     font-size: 24px;
 }
 
+.card-container {
+    margin: 0 auto;
+}
+
 .card {
-    max-width: 30rem;
+    max-width: 20rem;
     color: var(--lighter-gray);
 }
 
@@ -24,7 +28,9 @@ p {
 }
 
 .project-card {
-    padding: 2%;
+    margin: 0;
+    padding: 0;
+    padding-right: 3%;
 }
 
 
@@ -32,15 +38,16 @@ p {
 
 @media only screen and (min-width: 890px) {
     .card {
-        max-width: 30rem;
+        max-width: 50rem;
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
     p {
         font-size: 17px;
     }
     .card {
+        align-items: center;
         max-width: 36rem;
     }
 }

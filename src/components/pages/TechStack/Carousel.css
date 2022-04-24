@@ -15,8 +15,8 @@ h1 {
 }
 
 .gallery{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     position: relative;
     transform-style: preserve-3d;
     animation: gallery 20s linear infinite;
@@ -33,13 +33,13 @@ h1 {
 .gallery span{
     margin-top: 50px;
     height: 100%;
-    width:70%;
+    width:80%;
     align-items: center;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     transform-style: preserve-3d;
-    transform-origin:center;
+    transform-origin: center;
     transform: rotateY(calc(var(--i) * 40deg)) translateZ(100px);
     transition: all 1s;
 }

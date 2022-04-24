@@ -42,7 +42,7 @@ img {
 
 
 .main-container {
-  margin: 0 auto;
+  margin: 0 auto !important;
   min-height: 100vh;
   margin-top: 4%;
   display: flex;

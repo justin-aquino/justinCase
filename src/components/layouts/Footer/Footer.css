@@ -1,0 +1,6 @@
+footer {
+    background-color: var(--dark-purple);
+    padding: 20px;
+    color: var(--darker-gray);
+    /* position: static; */
+}

@@ -5,6 +5,7 @@ import TechStack from './components/pages/TechStack/TechStack';
 import ProjectList from './components/pages/Portfolio/ProjectList';
 import { useState } from 'react';
 import About from './components/pages/About/About';
+import Footer from './components/layouts/Footer/Footer';
 
 const App = () => {
 
@@ -76,7 +77,7 @@ const App = () => {
       <div id="project">
         <ProjectList projects={projects} />
       </div>
-        
+      <Footer />  
     </div>
   );
   }

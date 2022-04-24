@@ -58,7 +58,7 @@ img {
 }
 .icons {
     margin: 2%;
-    color: var(--darker-gray);
+    color: var(--darker-gray) !important;
     text-decoration: none;
 }
 .icons:hover {
@@ -94,7 +94,7 @@ img {
         font-size: 5rem;
     }
     .icons {
-        margin: 5%;
+        margin: 3%;
        
     }
 }

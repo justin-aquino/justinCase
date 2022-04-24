@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
+import { FaLinkedin, FaGithubSquare, FaFilePdf } from "react-icons/fa"
 import { SiGmail } from "react-icons/si"
 
 const About = () => {
@@ -19,6 +19,7 @@ const About = () => {
                <a className="icons" href="https://www.linkedin.com/in/justinaquino-dev/" target="_blank"> <FaLinkedin /> </a>
                <a className="icons" href="https://github.com/justin-aquino" target="_blank"> <FaGithubSquare /> </a>
                <a className="icons" href="mailto:jbaquino25@gmail.com" target="_blank"> <SiGmail /> </a>
+               <a className="icons" href={`https://docs.google.com/document/d/15bQ5cv3Y-EZsi0zOjmbgPR1FOzsiUMlL/edit?usp=sharing&ouid=113761644467756957443&rtpof=true&sd=true`}  target="_blank"> <FaFilePdf /> </a>
             </div>
             
         </div>

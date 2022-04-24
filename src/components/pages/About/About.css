@@ -1,4 +1,6 @@
-
+* {
+    padding: 0;
+}
 .intro {
     background: url("/public/custom.svg");
     min-height: 100vh;
@@ -21,10 +23,6 @@
     width: 50%;
 }
 
-/* .tats {
-    margin-top: 15%;
-} */
-
 img {
 
     margin: 1%;
@@ -39,5 +37,8 @@ img {
     }
     .typed-text {
         font-size: 2rem;
+    }
+    section {
+        margin-top: 0;
     }
 }

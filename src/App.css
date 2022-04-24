@@ -29,7 +29,8 @@ img {
 
 #home {
   background-color: var(--light-purple);
-  margin-bottom: 10%;
+  margin: 0;
+
 }
 
 #project {
@@ -59,6 +60,7 @@ img {
 
 .App {
   text-align: center;
+  margin-top: 0;
 }
 
 .App-logo {

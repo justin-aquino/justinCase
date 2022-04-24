@@ -116,6 +116,9 @@ img {
         flex-direction: row;
     }
    
+    .icons-div {
+        font-size: 4rem;
+    }
 
     .branding {
         width: 30%;

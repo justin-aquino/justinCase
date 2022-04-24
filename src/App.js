@@ -4,6 +4,7 @@ import NaviBar from './components/layouts/Navibar/NaviBar';
 import TechStack from './components/pages/TechStack/TechStack';
 import ProjectList from './components/pages/Portfolio/ProjectList';
 import { useState } from 'react';
+import About from './components/pages/About/About';
 
 const App = () => {
 
@@ -71,6 +72,7 @@ const App = () => {
       <div className="flex-with-center" id="tech-stack">
         <TechStack />
       </div>
+      <About />
       <div id="project">
         <ProjectList projects={projects} />
       </div>

@@ -4,15 +4,43 @@ h1 {
     font-size: 24px;
 }
 
-.card-body {
-    background-color: var(--dark-purple);
+.card {
+    max-width: 30rem;
     color: var(--lighter-gray);
 }
+
+.card-body {
+    background-color: var(--dark-purple);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
 p {
-    font-size: 20px;
+    font-size: 12px;
     text-align: left;
 }
 
 .project-card {
     padding: 2%;
+}
+
+
+
+
+@media only screen and (min-width: 890px) {
+    .card {
+        max-width: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    p {
+        font-size: 17px;
+    }
+    .card {
+        max-width: 36rem;
+    }
 }

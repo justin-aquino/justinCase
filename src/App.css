@@ -27,6 +27,8 @@ img {
   width: 30rem;
 }
 
+
+
 #home {
   background-color: var(--light-purple);
   margin: 0;
@@ -40,10 +42,12 @@ img {
 
 
 .main-container {
+  margin: 0 auto;
   min-height: 100vh;
   margin-top: 4%;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .font {

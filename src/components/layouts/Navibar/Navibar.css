@@ -10,6 +10,9 @@
 .nav-text {
     color: var(--lighter-gray) !important;
 }
+.nav-text:hover {
+    color: var(--light-purple) !important;
+}
 
 .flex-end {
     justify-content: flex-end;

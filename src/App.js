@@ -23,7 +23,7 @@ const App = () => {
       name: "LFG- Looking For Group",
       image: "lfg.png",
       description: "LFG allows a user to create a party relating to the specific game the user is playing. The admin of the party has the privileges to accept any user who wants to join the party as well as assign other members to be co-admins. Non-admin users can join any party on any game as long as they’ve sent a ‘request to join’ to the admin and the admin approves it. Once a user becomes a member, they can interact with other people in the party through the party chat. Non-members are prohibited to interact with party members.",
-      deployedLink: "https://boisterous-crostata-b66bd1.netlify.app/",
+      deployedLink: "https://lookingforgroup.netlify.app/",
       username: "admin",
       password: "admin",
       githubUrl: "https://github.com/justin-aquino/LFG-client"

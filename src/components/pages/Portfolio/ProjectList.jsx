@@ -12,7 +12,7 @@ const ProjectList = ({projects}) => {
   return (
     <CardGroup>
         <h1>Projects</h1>
-        <div className="main-container">
+        <div className="main-container m-auto">
             { mappedProjects }
         </div>
     </CardGroup>

@@ -48,6 +48,7 @@ p {
     }
     .card {
         align-items: center;
-        max-width: 35rem;
+        margin: 0 auto;
+        max-width: 33rem;
     }
 }

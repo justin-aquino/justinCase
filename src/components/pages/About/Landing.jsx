@@ -16,8 +16,8 @@ const Landing = () => {
                     "I'm Justin!",
                     "I'm a fullstack engineer based in Los Angeles, CA.",
                     "Welcome to my website!",
-                    "Unfortunately this site is still under construction...",
-                    "But feel free to look around and check my projects!",
+                    "Thank you for visiting!",
+                    "Feel free to look around and check my projects!",
                     "  ",
                     "  ",
                     "  "

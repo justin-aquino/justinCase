@@ -15,7 +15,7 @@ const NaviBar = () => {
             <Nav.Link href="#about" className="nav-text font">About</Nav.Link>
             <Nav.Link href="#project" className="nav-text font">Projects</Nav.Link>
             {/* <Nav.Link href="#project" className="nav-text font">Contact Me</Nav.Link> */}
-            <Nav.Link href={`https://docs.google.com/document/d/15bQ5cv3Y-EZsi0zOjmbgPR1FOzsiUMlL/edit?usp=sharing&ouid=113761644467756957443&rtpof=true&sd=true`} target="_blank" className="nav-text font">View Resume!</Nav.Link>
+            <Nav.Link href={`https://docs.google.com/document/d/1fDg42zWla1ZnDQvZk47eDK4J2klVTh0zfT6WYdRGiAI/edit?usp=sharing`} target="_blank" className="nav-text font">View Resume!</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

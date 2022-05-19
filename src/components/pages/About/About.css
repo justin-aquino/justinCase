@@ -19,7 +19,7 @@
     border-radius: 10px;
     padding: 2%;
     color: var(--lighter-gray);
-    font-size: 1em;
+    font-size: .5em;
     width: 50%;
 }
 
@@ -27,7 +27,7 @@
 img {
 
     margin: 2%;
-    width: 15rem;
+    width: 10rem;
 }
 
 
@@ -88,10 +88,10 @@ img {
         padding: 3%;
     }
     .branding > p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .icons-div {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .icons {
         margin: 3%;
@@ -124,7 +124,7 @@ img {
         width: 30%;
     }
     .branding > p {
-        font-size: 25px;
+        font-size: 20px;
         
     }
 }

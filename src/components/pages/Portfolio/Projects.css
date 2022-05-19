@@ -2,6 +2,7 @@ h1 {
     margin: 0 auto;
     padding-top: 10%;
     font-size: 24px;
+    padding-bottom: 2%;
 }
 
 .card-container {
@@ -11,10 +12,12 @@ h1 {
 .card {
     max-width: 20rem;
     color: var(--lighter-gray);
+    margin-left: 5%;
 }
 
 .card-body {
     background-color: var(--dark-purple);
+    
 }
 
 .card:hover {
@@ -39,7 +42,10 @@ p {
 @media only screen and (min-width: 890px) {
     .card {
         max-width: 30rem;
+        margin-left: 2%;
+        justify-content: space-between;
     }
+
 }
 
 @media only screen and (min-width: 1400px) {

@@ -46,7 +46,7 @@ const App = () => {
     //   deployedLink: "url here",
     //   username: "admin",
     //   password: "admin",
-    //   githubUrl: "github here"
+    //   githubUrl: "github here" 
     // },
     {
       name: "Beer House",

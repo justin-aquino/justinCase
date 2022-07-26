@@ -1,14 +1,14 @@
 .navibar {
     background-color: var(--dark-purple);
-
+    font-size: 15px;
 }
 
-.name {
-    font-size: 25px;
-}
 
 .nav-text {
     color: var(--lighter-gray) !important;
+}
+.nav-text:hover {
+    color: var(--light-purple) !important;
 }
 
 .flex-end {

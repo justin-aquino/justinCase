@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 :root {
   --dark-purple: #4E3C51;
-  --light-purple: #8D818F;
+  --light-purple: #B6A5D0;
   --darker-gray: #A9AAAA;
   --lighter-gray: #E3E3E3;
 }
@@ -10,9 +10,48 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url("/public/custom.svg");
+  min-height: 100vh;
+  background-size: cover;
+  object-fit: fill;
+  background-repeat: no-repeat;
 }
 body {
   background-color: var(--light-purple) !important;
+}
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+img {
+  width: 30rem;
+}
+
+
+
+#home {
+  background-color: var(--light-purple);
+  margin: 0;
+
+}
+
+#project {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.main-container {
+  margin: 0 auto !important;
+  min-height: 100vh;
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.font {
+  font-family: 'Righteous', cursive;
 }
 .container {
   min-height: 100vh;
@@ -25,6 +64,7 @@ body {
 
 .App {
   text-align: center;
+  margin-top: 0;
 }
 
 .App-logo {

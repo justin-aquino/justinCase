@@ -1,23 +1,132 @@
-
+* {
+    padding: 0;
+}
 .intro {
     background: url("/public/custom.svg");
     min-height: 100vh;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
 }
 
 .typed-text {
     background-color: var(--dark-purple);
     border-radius: 10px;
-    padding: 2%;
+    padding: 1%;
     color: var(--lighter-gray);
-    font-size: 2em;
+    font-size: .5em;
+    width: 50%;
+    
 }
 
+
 img {
+
     margin: 2%;
-    border-radius: 10px;
-    border: 5px solid var(--darker-gray);
-    width: 35rem;
+    width: 10rem;
+}
+
+
+.flex-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.flex-child {
+
+    margin: 10%;
+    width: 100%;
+}
+
+.branding {
+    width: 70%;
+    background-color: var(--dark-purple);
+    padding: 2%;
+    color: var(--lighter-gray);
+}
+
+.branding > p {
+    font-size: 15px;
+}
+
+.icons-div {
+    font-size: 3rem;
+}
+.icons {
+    margin: 2%;
+    color: var(--darker-gray) !important;
+    text-decoration: none;
+}
+.icons:hover {
+    color: var(--light-purple);
+}
+
+
+@media only screen and (min-width: 1000px) {
+    img {
+        width: 25rem;
+        margin-top: 0;
+    }
+    .typed-text {
+        font-size: 1rem;
+    }
+    section {
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-child {
+        /* flex: 1; */
+        margin: 5%;
+        width: 50%;
+        padding: 3%;
+    }
+    .branding > p {
+        font-size: 15px;
+    }
+    .icons-div {
+        font-size: 2rem;
+    }
+    .icons {
+        margin: 3%;
+       
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    img {
+        width: 30rem;
+        margin-top: 0;
+    }
+    .typed-text {
+        font-size: 2rem;
+    }
+    section {
+        margin-top: 0;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+   
+    .icons-div {
+        font-size: 4rem;
+    }
+
+    .branding {
+        width: 30%;
+    }
+    .branding > p {
+        font-size: 20px;
+        
+    }
 }

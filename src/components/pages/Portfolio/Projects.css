@@ -1,0 +1,62 @@
+h1 {
+    margin: 0 auto;
+    padding-top: 10%;
+    font-size: 24px;
+    padding-bottom: 2%;
+}
+
+.card-container {
+    margin: 0 auto;
+  
+}
+
+.card {
+    max-width: 20rem;
+    color: var(--lighter-gray);
+  
+}
+
+.card-body {
+    background-color: var(--dark-purple);
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.project-card {
+    margin: 0;
+    padding: 0;
+    padding-right: 3%;
+}
+
+
+
+
+@media only screen and (min-width: 890px) {
+    .card {
+        max-width: 25rem;
+        margin-left: 2%;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 17px;
+    }
+    .card {
+        align-items: center;
+        margin: 0 auto;
+        max-width: 30rem;
+       
+    }
+}

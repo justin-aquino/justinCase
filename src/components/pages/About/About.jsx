@@ -1,28 +1,29 @@
-import React from 'react'
-import ReactTyped from 'react-typed'
-import "./About.css"
+import { FaLinkedin, FaGithubSquare, FaFilePdf } from "react-icons/fa"
+import { SiGmail } from "react-icons/si"
 
 const About = () => {
   return (
-
-        <div className=' intro'>
-        <img src="justin.png" alt="justin"/>
-            <section>
-                <ReactTyped 
-                    strings={[
-                        "Hello Visitor!",
-                        "Thanks for visiting my website.",
-                        "I'm a software engineer",
-                    ]}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop
-                    className='typed-text'
-                />
-            </section>
-
+    <div id="about" className="intro flex-container">
+        <div className="flex-image">
+            <img src="justin.png" alt="justin" />
         </div>
+            
+        <div className="branding flex-child">
+            <p> I am a proactive and dedicated individual with a background in restaurant management, desiring to utilize full-stack development skills. My tenacity for learning and 
+                creating led me to pursue a career in tech with hopes of transferring my creativity in making menus and recipes over to creating something inclusive, that may help with the 
+                collective advancement of human technology.
+            </p>
 
+            <p>Let's connect!</p>
+            <div className="icons-div">
+               <a className="icons" href="https://www.linkedin.com/in/justinaquino-dev/" target="_blank"> <FaLinkedin /> </a>
+               <a className="icons" href="https://github.com/justin-aquino" target="_blank"> <FaGithubSquare /> </a>
+               <a className="icons" href="mailto:jbaquino25@gmail.com" target="_blank"> <SiGmail /> </a>
+               <a className="icons" href={`https://docs.google.com/document/d/15bQ5cv3Y-EZsi0zOjmbgPR1FOzsiUMlL/edit?usp=sharing&ouid=113761644467756957443&rtpof=true&sd=true`}  target="_blank"> <FaFilePdf /> </a>
+            </div>
+            
+        </div>
+    </div>
   )
 }
 

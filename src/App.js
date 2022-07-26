@@ -72,7 +72,7 @@ const App = () => {
       name: "Pokedex Router",
       description:
         "A frontend webapp for displaying pokemon utilizing React + Redux",
-      image: "pokeball.png",
+      image: "pokedex.png",
       deployedLink: "https://akinojuno.github.io/pokedexrouting/",
       username: "admin",
       password: "admin",

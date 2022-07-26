@@ -1,32 +1,34 @@
-import './App.css';
-import Landing from './components/pages/About/Landing';
-import NaviBar from './components/layouts/Navibar/NaviBar';
-import TechStack from './components/pages/TechStack/TechStack';
-import ProjectList from './components/pages/Portfolio/ProjectList';
-import { useState } from 'react';
-import About from './components/pages/About/About';
-import Footer from './components/layouts/Footer/Footer';
+import "./App.css";
+import Landing from "./components/pages/About/Landing";
+import NaviBar from "./components/layouts/Navibar/NaviBar";
+import TechStack from "./components/pages/TechStack/TechStack";
+import ProjectList from "./components/pages/Portfolio/ProjectList";
+import { useState } from "react";
+import About from "./components/pages/About/About";
+import Footer from "./components/layouts/Footer/Footer";
 
 const App = () => {
-
   const [projects, setProjects] = useState([
     {
       name: "KAT Inventory Management System",
       image: "katims.png",
-      description: "Inventory management software for pharmacies, utilizing the FDA open drug API. Pharmacies can monitor the current inventory to help make decisions on placing additional orders to minimize over / under stocking and ultimately lower costs.",
+      description:
+        "Inventory management software for pharmacies, utilizing the FDA open drug API. Pharmacies can monitor the current inventory to help make decisions on placing additional orders to minimize over / under stocking and ultimately lower costs.",
       deployedLink: "https://elegant-gumption-829ed0.netlify.app/contact",
       username: "admin",
       password: "admin",
-      githubUrl: "https://github.com/justin-aquino/kat-inventory-management-client"
+      githubUrl:
+        "https://github.com/justin-aquino/kat-inventory-management-client",
     },
     {
       name: "LFG- Looking For Group",
       image: "lfg.png",
-      description: "LFG allows a user to create a party relating to the specific game the user is playing. The admin of the party has the privileges to accept any user who wants to join the party as well as assign other members to be co-admins. Non-admin users can join any party on any game as long as they’ve sent a ‘request to join’ to the admin and the admin approves it. Once a user becomes a member, they can interact with other people in the party through the party chat. Non-members are prohibited to interact with party members.",
+      description:
+        "LFG allows a user to create a party relating to the specific game the user is playing. The admin of the party has the privileges to accept any user who wants to join the party as well as assign other members to be co-admins. Non-admin users can join any party on any game as long as they’ve sent a ‘request to join’ to the admin and the admin approves it. Once a user becomes a member, they can interact with other people in the party through the party chat. Non-members are prohibited to interact with party members.",
       deployedLink: "https://lookingforgroup.netlify.app/",
       username: "admin",
       password: "admin",
-      githubUrl: "https://github.com/justin-aquino/LFG-client"
+      githubUrl: "https://github.com/justin-aquino/LFG-client",
     },
     // {
     //   name: "Little Juans",
@@ -48,23 +50,55 @@ const App = () => {
     // },
     {
       name: "Beer House",
-      description: "Beer House is an artisan/ craft beer tracker app made for beer connoiseurs. You can search from the API, or manually add your own to your favorites list. It also has a random beer generator button for the indecisive ones out there!",
+      description:
+        "Beer House is an artisan/ craft beer tracker app made for beer connoiseurs. You can search from the API, or manually add your own to your favorites list. It also has a random beer generator button for the indecisive ones out there!",
       image: "beer.png",
       deployedLink: "https://beer-house.herokuapp.com/",
       username: "admin",
       password: "admin",
-      githubUrl: "https://github.com/justin-aquino/beer-house"
+      githubUrl: "https://github.com/justin-aquino/beer-house",
     },
     {
       name: "Keylometer/ Minute",
-      description: "For my first project in this course, I decided to build my version of a speed typing challenge. As a novice mechanical keyboard enthusiast, I enjoy building keyboards using different switches depending on what sound profile and feel I am looking for at certain times. And to test out the build, I always use websites like monkeytype and kbsim.",
+      description:
+        "For my first project in this course, I decided to build my version of a speed typing challenge. As a novice mechanical keyboard enthusiast, I enjoy building keyboards using different switches depending on what sound profile and feel I am looking for at certain times. And to test out the build, I always use websites like monkeytype and kbsim.",
       image: "keylo.png",
       deployedLink: "https://justin-aquino.github.io/speed-typer/",
       username: "admin",
       password: "admin",
-      githubUrl: "https://github.com/justin-aquino/speed-typer"
+      githubUrl: "https://github.com/justin-aquino/speed-typer",
     },
-  ])
+    {
+      name: "Pokedex Router",
+      description:
+        "A frontend webapp for displaying pokemon utilizing React + Redux",
+      image: "pokeball.png",
+      deployedLink: "https://akinojuno.github.io/pokedexrouting/",
+      username: "admin",
+      password: "admin",
+      githubUrl: "https://github.com/akinojuno/pokedexrouting",
+    },
+    {
+      name: "To Do App",
+      description:
+        "A simple frontend to do list web app utilizing React + Redux",
+      image: "todo.png",
+      deployedLink: "https://akinojuno.github.io/reduxtodoapp/",
+      username: "admin",
+      password: "admin",
+      githubUrl: "https://github.com/akinojuno/reduxtodoapp",
+    },
+    {
+      name: "Alto Music",
+      description:
+        "My first ever coding project. Alto Music, a static website for a fictional recording studio. Made using HTML + CSS",
+      image: "alto.png",
+      deployedLink: "https://akinojuno.github.io/altomusic/",
+      username: "admin",
+      password: "admin",
+      githubUrl: "https://github.com/akinojuno/altomusic",
+    },
+  ]);
 
   return (
     <div className="App">
@@ -77,9 +111,9 @@ const App = () => {
       <div id="project">
         <ProjectList projects={projects} />
       </div>
-      <Footer />  
+      <Footer />
     </div>
   );
-  }
+};
 
 export default App;

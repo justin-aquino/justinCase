@@ -15,6 +15,9 @@ const App = () => {
    description:
     "Netflix Clone developed using TypeScript, Next.JS, Prisma, MongoDB, and TailwindCSS.",
    deployedLink: "https://dupeflix.vercel.app/auth",
+   username: "aryameow",
+   password: "aryameow",
+   githubUrl: "https://github.com/justin-aquino/netflix-clone",
   },
   {
    name: "KAT Inventory Management System",
